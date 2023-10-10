@@ -13,11 +13,11 @@ The emergence of definitive human haematopoietic stem cells (HSCs) during Carneg
 
 ## Available files
 
-### `SingleCell.py`
+### [`SingleCell.py`](./SingleCell.py)
 
 Pipeline for single cell analyses from Figures 5 and 6. The ScanPy pipeline (Wolf et al., 2018) was used to explore and Scanorama (Hie et al., 2019) was used to integrate the dataset with other dorsal aorta single cell datasets spanning stages CS13 – CS15 from a publicly available resource (Zeng et al., 2019). 
 
-### `NATMI.sh`
+### [`NATMI.sh`](./NATMI.sh)
 
 Code for usage of the tool NATMI (Hou et al., 2020) used for predicting ligand-receptor interactions across spatial domains and single cell clusters and which is the foundation for the web interactive exploration tool. The internal default ligand-receptor database ‘lrc2p’ was used which has literature supported ligand-receptor pairs – please see Supplementary data 1 from the original NATMI publication for literature references for each predicted ligand-receptor pair. Weight values of type ‘mean’ and a detection threshold of 0.2 were used. Interactions based on specificity, (the mean expression of the ligand/receptor in a spatial domain or cluster divided by the sum of the mean expression of that ligand/receptor across all domains/clusters/) were considered rather than interactions based on expression level as this gives a better resolution of differential contributions of the different populations. 
 
